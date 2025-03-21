@@ -1,345 +1,98 @@
-# Trading App Database Schema
+## Description
+Are you an aspiring developer looking to build your resume with cutting-edge skills? Or an entrepreneur ready to launch your cryptocurrency trading platform? **Our Full Stack Trading Platform Source Code** is your gateway to mastering modern tech and revolutionizing the crypto trading world.
+
+### 🚀 Build Your Resume
+- Gain hands-on experience with industry-standard tools and frameworks.  
+- Master Full Stack Development: Learn how to build and deploy a fully functional trading platform from frontend to backend.  
+- Real-World Application: Understand the intricacies of integrating APIs, handling secure transactions, and managing user data.  
 
 ---
 
-### ✅ **How to Add to GitHub:**  
-1. Open your repository on GitHub.  
-2. Open the `README.md` file.  
-3. Paste the ERD Markdown code below.  
-4. Commit the changes directly to your branch.  
-5. Open a Pull Request → Review → Merge!  
+## 🌟 Comprehensive Feature Set
+
+### 🤖 AI Chat Bot  
+- Leverage our AI Chat Bot, designed to handle crypto-related queries like the value of crypto and market data using **Gemini API** and **CoinGecko API** for real-time data.  
+
+### 💱 Buy & Sell Crypto  
+- Facilitate smooth crypto transactions with a user-friendly buy and sell interface, supporting various cryptocurrencies.  
+
+### 📊 Portfolio Management  
+- Equip your users with robust portfolio management tools to monitor investments and track performance.  
 
 ---
 
-### 🚀 **Why This Works:**  
-✔️ Markdown supports plaintext diagrams using ` ```plaintext ` for consistent formatting.  
-✔️ ASCII-style ERD keeps it readable and version-controllable.  
-✔️ Clean and professional for documentation!  
+## 🔐 Advanced Wallet Functionality
+- **Wallet to Wallet Transfer** – Securely transfer funds between wallets.  
+- **Withdrawal to Bank Account** – Directly withdraw funds to bank accounts.  
+- **Add Balance to Wallet** – Easily top up wallet balances.  
 
 ---
 
-🔥 **Try it out — you're nailing it!** 😎
-
-## Entity Relationship Diagram (ERD)
-
-```plaintext
-+---------------------+           +-----------------+
-|       Users         |<--------->|    Wallets      |
-|---------------------|           +-----------------+
-| id                  |               ^            
-| fullName            |               |
-| email               |               |         
-| ...                 |               |
-+---------------------+               |
-                                      |
-+--------------------+            +--------------------+
-|      Assets        |<---------->| WalletTransactions |
-|--------------------|            +--------------------+
-| id                 |
-| quantity           |
-| buy_price          |<---------->+-----------------+
-| coin_id            |            |  Coins          |
-| user_id            |            +-----------------+
-+--------------------+            | id              |
-                                  | symbol          |
-+--------------------+            | ...             |
-| Withdrawals        |<---------->+-----------------+
-|--------------------|
-| id                 |
-| status             |
-| amount             |
-| user_id            |
-| date               |
-+--------------------+
-
-+--------------------+
-| Watchlists         |
-|--------------------+
-| id                 |
-| user_id            |
-+--------------------+
-          |
-          |
-          v
-+--------------------+
-| Watchlist_Coins    |
-|--------------------+
-| watchlist_id       |
-| coin_id            |
-+--------------------+
-
-+---------------------+           +---------------------+
-|   VerificationCodes |<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| otp                 |
-| user_id             |
-| email               |
-| mobile              |
-| verification_type   |
-+---------------------+
-
-+---------------------+           +---------------------+
-|  TradingHistories   |<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| selling_price       |
-| buying_price        |
-| coin_id             |
-| user_id             |
-+---------------------+
-
-+---------------------+           +---------------------+
-|    PaymentOrders    |<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| amount              |
-| status              |
-| payment_method      |
-| user_id             |
-+---------------------+
-
-+---------------------+           +---------------------+
-|   PaymentDetails    |<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| account_number      |
-| account_holder_name |
-| ifsc                |
-| bank_name           |
-| user_id             |
-+---------------------+
-
-+---------------------+           +---------------------+
-|        Orders       |<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| user_id             |
-| order_type          |
-| price               |
-| timestamp           |
-| status              |
-| order_item_id       |
-+---------------------+
-          |
-          |
-          v
-+---------------------+           +---------------------+
-|      OrderItems     |<--------->|        Coins        |
-|---------------------|           +---------------------+
-| id                  |
-| quantity            |
-| coin_id             |
-| buy_price           |
-| sell_price          |
-| order_id            |
-+---------------------+
-
-+---------------------+             +---------------------+
-|    Notifications    | <---------> |        Users        |
-|---------------------|             +---------------------+
-| id                  |
-| from_user_id        |
-| to_user_id          |
-| amount              |
-| message             |
-+---------------------+
-
-+---------------------+           
-|   MarketChartData   |
-|---------------------|
-| id                  |
-| timestamp           |
-| price               |
-+---------------------+
-
-+---------------------+           +---------------------+
-| ForgotPasswordTokens|<--------->|        Users        |
-|---------------------|           +---------------------+
-| id                  |
-| user_id             |
-| otp                 |
-| verification_type   |
-| send_to             |
-+---------------------+
-```
-
-### ✅ **What Happens Here:**  
-✔️ The three backticks (`\`\`\``) after the ERD will **end the plaintext block**.  
-✔️ After that, you can continue using regular Markdown formatting without affecting the ERD style.  
-✔️ GitHub will display the ERD as a fixed-width, readable diagram while the rest of the document stays clean.  
+## 📜 Transaction History
+- **Withdrawal History** – View and track past withdrawals.  
+- **Wallet History** – Access detailed logs of all wallet transactions.  
+- **Search Coin** – Effortlessly search for any cryptocurrency, providing users with essential information for informed trading decisions.  
 
 ---
 
-🔥 Now you’ve got it all structured! 😎
+## 🛡️ Robust Authentication and Security
+Ensure top-notch security with features like:  
+- **Login & Register** – Simple and secure user authentication.  
+- **Two-Factor Authentication** – Extra layer of security for user accounts.  
+- **Forgot Password** – Easy password recovery process.  
 
 ---
 
-## Database Tables
+## 🏆 Cutting-Edge Technology Stack
+Our platform utilizes the latest technologies to ensure high performance, security, and scalability.
 
-### **Users**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| fullName   | VARCHAR |
-| email      | VARCHAR |
-| ...        | ...  |
+**Backend:**  
+- Spring Boot  
+- MySQL DB  
+- Spring Security  
+- Java Mail Sender  
 
-### **Wallets**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| user_id    | INT (FK to Users.id) |
+**Frontend:**  
+- React  
+- Tailwind CSS  
+- Redux  
+- Axios  
+- React-Router-Dom  
+- Shadcn UI  
 
-### **Assets**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| quantity   | FLOAT |
-| buy_price  | FLOAT |
-| coin_id    | INT (FK to Coins.id) |
-| user_id    | INT (FK to Users.id) |
+**Payment Gateways:**  
+- Razorpay  
+- Stripe  
 
-### **Coins**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| symbol     | VARCHAR |
-| ...        | ...  |
-
-### **WalletTransactions**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| wallet_id  | INT (FK to Wallets.id) |
-| coin_id    | INT (FK to Coins.id) |
-| quantity   | FLOAT |
-
-### **Withdrawals**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| status     | VARCHAR |
-| amount     | FLOAT |
-| user_id    | INT (FK to Users.id) |
-| date       | DATE |
-
-### **Watchlists**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| user_id    | INT (FK to Users.id) |
-
-### **Watchlist_Coins**
-| Column Name | Type |
-|------------|------|
-| watchlist_id | INT (FK to Watchlists.id) |
-| coin_id       | INT (FK to Coins.id) |
-
-### **VerificationCodes**
-| Column Name | Type |
-|------------|------|
-| id                  | INT  |
-| otp                 | VARCHAR |
-| user_id             | INT (FK to Users.id) |
-| email               | VARCHAR |
-| mobile              | VARCHAR |
-| verification_type   | VARCHAR |
-
-### **TradingHistories**
-| Column Name | Type |
-|------------|------|
-| id             | INT  |
-| selling_price  | FLOAT |
-| buying_price   | FLOAT |
-| coin_id        | INT (FK to Coins.id) |
-| user_id        | INT (FK to Users.id) |
-
-### **PaymentOrders**
-| Column Name | Type |
-|------------|------|
-| id             | INT  |
-| amount         | FLOAT |
-| status         | VARCHAR |
-| payment_method | VARCHAR |
-| user_id        | INT (FK to Users.id) |
-
-### **PaymentDetails**
-| Column Name          | Type |
-|---------------------|------|
-| id                  | INT  |
-| account_number      | VARCHAR |
-| account_holder_name | VARCHAR |
-| ifsc                | VARCHAR |
-| bank_name           | VARCHAR |
-| user_id             | INT (FK to Users.id) |
-
-### **Orders**
-| Column Name  | Type |
-|-------------|------|
-| id          | INT  |
-| user_id     | INT (FK to Users.id) |
-| order_type  | VARCHAR |
-| price       | FLOAT |
-| timestamp   | DATETIME |
-| status      | VARCHAR |
-| order_item_id | INT (FK to OrderItems.id) |
-
-### **OrderItems**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| quantity   | FLOAT |
-| coin_id    | INT (FK to Coins.id) |
-| buy_price  | FLOAT |
-| sell_price | FLOAT |
-| order_id   | INT (FK to Orders.id) |
-
-### **Notifications**
-| Column Name  | Type |
-|-------------|------|
-| id           | INT  |
-| from_user_id  | INT (FK to Users.id) |
-| to_user_id    | INT (FK to Users.id) |
-| amount        | FLOAT |
-| message       | VARCHAR |
-
-### **MarketChartData**
-| Column Name | Type |
-|------------|------|
-| id         | INT  |
-| timestamp  | DATETIME |
-| price      | FLOAT |
-
-### **ForgotPasswordTokens**
-| Column Name         | Type |
-|--------------------|------|
-| id                 | INT  |
-| user_id            | INT (FK to Users.id) |
-| otp                | VARCHAR |
-| verification_type  | VARCHAR |
-| send_to            | VARCHAR |
+**APIs:**  
+- Gemini API  
+- CoinGecko API  
 
 ---
 
-## 🛠️ Relationships
-- **Users ↔ Wallets**: One-to-One  
-- **Users ↔ Assets**: One-to-Many  
-- **Users ↔ Withdrawals**: One-to-Many  
-- **Users ↔ Watchlists**: One-to-Many  
-- **Watchlists ↔ Watchlist_Coins**: One-to-Many  
-- **Assets ↔ Coins**: One-to-One  
-- **Orders ↔ OrderItems**: One-to-Many  
-- **Coins ↔ OrderItems**: One-to-One  
-- **Users ↔ Notifications**: One-to-Many  
-- **Users ↔ TradingHistories**: One-to-Many  
-- **Users ↔ PaymentOrders**: One-to-Many  
-- **Users ↔ PaymentDetails**: One-to-One  
+## ✅ Why Choose Our Source Code?
+- **Comprehensive Solution** – Fully functional trading platform with essential features.  
+- **Easy Customization** – Modular and well-documented code for easy customization.  
+- **Scalable Architecture** – Built to handle a growing user base and high transaction volumes.  
 
 ---
 
-### ✅ How to Create Repository and Add This:
-1. Create a new repository on GitHub.  
-2. Clone the repository:
+## 🎯 Get Started Today!
+Don’t miss the chance to elevate your career or business with our Full Stack Trading Platform Source Code. Perfect for students, aspiring developers, and entrepreneurs, our solution is designed to help you achieve your goals efficiently.
+
+---
+
+## 📩 Contact MetaPulz Platform
+**✉️ email@metapulz.com**  
+**📞 +639171281980**  
+
+---
 ```sh
-git clone https://github.com/your-username/your-repo.git
+## 📜 Terms and Conditions
+> Please update this section with your legal terms.  
+> You agree to share information entered on this page with MetaPulz Platform (owner of this page) and GitHub, adhering to applicable laws.  
+```
+---
+
+## 📄 Description
+👉 [**View Full Description**](./DATABASE.md)
