@@ -1,4 +1,20 @@
-# Trading App Database Schema
+# 🚀 Contributing to Project Name
+
+Thank you for considering contributing to this project! ❤️  
+Below, you'll find guidelines on how to work with the database and contribute effectively.  
+
+---
+
+## 💡 How to Contribute
+- Fork the repository.
+- Create a new branch for your feature/fix (`git checkout -b feature/your-feature-name`).
+- Make your changes and commit (`git commit -m "Added feature XYZ"`).
+- Push your branch (`git push origin feature/your-feature-name`).
+- Create a pull request — we'll review and merge it!  
+
+---
+
+# 🗄️ Database Schema Guide
 
 ---
 
@@ -343,3 +359,14 @@
 2. Clone the repository:
 ```sh
 git clone https://github.com/your-username/your-repo.git
+```
+---
+
+## ✅ Best Practices  
+✔️ Follow consistent coding standards.  
+✔️ Ensure that the database relationships are intact after making schema changes.  
+✔️ Document any changes in the pull request description.  
+
+---
+
+## 🏆 Thank you for contributing! 🎉
