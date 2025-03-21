@@ -1,6 +1,181 @@
 # Trading App Database Schema
 
+---
+
+### ✅ **How to Add to GitHub:**  
+1. Open your repository on GitHub.  
+2. Open the `README.md` file.  
+3. Paste the ERD Markdown code below.  
+4. Commit the changes directly to your branch.  
+5. Open a Pull Request → Review → Merge!  
+
+---
+
+### 🚀 **Why This Works:**  
+✔️ Markdown supports plaintext diagrams using ` ```plaintext ` for consistent formatting.  
+✔️ ASCII-style ERD keeps it readable and version-controllable.  
+✔️ Clean and professional for documentation!  
+
+---
+
+🔥 **Try it out — you're nailing it!** 😎
+
 ## Entity Relationship Diagram (ERD)
+
+```plaintext
++---------------------+           +-----------------+
+|       Users         |<--------->|    Wallets      |
+|---------------------|           +-----------------+
+| id                  |               ^            
+| fullName            |               |
+| email               |               |         
+| ...                 |               |
++---------------------+               |
+                                      |
++--------------------+            +--------------------+
+|      Assets        |<---------->| WalletTransactions |
+|--------------------|            +--------------------+
+| id                 |
+| quantity           |
+| buy_price          |<---------->+-----------------+
+| coin_id            |            |  Coins          |
+| user_id            |            +-----------------+
++--------------------+            | id              |
+                                  | symbol          |
++--------------------+            | ...             |
+| Withdrawals        |<---------->+-----------------+
+|--------------------|
+| id                 |
+| status             |
+| amount             |
+| user_id            |
+| date               |
++--------------------+
+
++--------------------+
+| Watchlists         |
+|--------------------+
+| id                 |
+| user_id            |
++--------------------+
+          |
+          |
+          v
++--------------------+
+| Watchlist_Coins    |
+|--------------------+
+| watchlist_id       |
+| coin_id            |
++--------------------+
+
++---------------------+           +---------------------+
+|   VerificationCodes |<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| otp                 |
+| user_id             |
+| email               |
+| mobile              |
+| verification_type   |
++---------------------+
+
++---------------------+           +---------------------+
+|  TradingHistories   |<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| selling_price       |
+| buying_price        |
+| coin_id             |
+| user_id             |
++---------------------+
+
++---------------------+           +---------------------+
+|    PaymentOrders    |<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| amount              |
+| status              |
+| payment_method      |
+| user_id             |
++---------------------+
+
++---------------------+           +---------------------+
+|   PaymentDetails    |<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| account_number      |
+| account_holder_name |
+| ifsc                |
+| bank_name           |
+| user_id             |
++---------------------+
+
++---------------------+           +---------------------+
+|        Orders       |<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| user_id             |
+| order_type          |
+| price               |
+| timestamp           |
+| status              |
+| order_item_id       |
++---------------------+
+          |
+          |
+          v
++---------------------+           +---------------------+
+|      OrderItems     |<--------->|        Coins        |
+|---------------------|           +---------------------+
+| id                  |
+| quantity            |
+| coin_id             |
+| buy_price           |
+| sell_price          |
+| order_id            |
++---------------------+
+
++---------------------+             +---------------------+
+|    Notifications    | <---------> |        Users        |
+|---------------------|             +---------------------+
+| id                  |
+| from_user_id        |
+| to_user_id          |
+| amount              |
+| message             |
++---------------------+
+
++---------------------+           
+|   MarketChartData   |
+|---------------------|
+| id                  |
+| timestamp           |
+| price               |
++---------------------+
+
++---------------------+           +---------------------+
+| ForgotPasswordTokens|<--------->|        Users        |
+|---------------------|           +---------------------+
+| id                  |
+| user_id             |
+| otp                 |
+| verification_type   |
+| send_to             |
++---------------------+
+```
+
+### ✅ **What Happens Here:**  
+✔️ The three backticks (`\`\`\``) after the ERD will **end the plaintext block**.  
+✔️ After that, you can continue using regular Markdown formatting without affecting the ERD style.  
+✔️ GitHub will display the ERD as a fixed-width, readable diagram while the rest of the document stays clean.  
+
+---
+
+🔥 Now you’ve got it all structured! 😎
+
+---
+
+## Database Tables
 
 ### **Users**
 | Column Name | Type |
