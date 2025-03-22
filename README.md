@@ -24,8 +24,8 @@
 
 ## Table of Contents
 
-- [Description](#📜-description)  
-- [Comprehensive Feature Set](#🌟-comprehensive-feature-set)  
+- [Description](#%F0%9F%93%9C-description)  
+- [Comprehensive Feature Set](#%F0%9F%8C%9F-comprehensive-feature-set)  
 - [Advanced Wallet Functionality](#🔐-advanced-wallet-functionality)  
 - [Transaction History](#📜-transaction-history)  
 - [Robust Authentication and Security](#🛡️-robust-authentication-and-security)  
@@ -34,7 +34,7 @@
 - [Get Started Today](#🎯-get-started-today)  
 - [Documentation](#📚-documentation)  
 - [Contact](#📩-contact-metapulz-platform)  
-- [Terms and Conditions](#📜-terms-and-conditions)
+- [Terms and Conditions](#%F0%9F%93%9C-terms-and-conditions)
 
 ### 📜 Description
 Are you an aspiring developer looking to build your resume with cutting-edge skills? Or an entrepreneur ready to launch your cryptocurrency trading platform? **Our Full Stack Trading Platform Source Code** is your gateway to mastering modern tech and revolutionizing the trading world.
