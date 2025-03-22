@@ -22,6 +22,8 @@
   Owned and Operated by: MetaPulz Platform and Career Consultancy Services
 </h4>
 
+---
+
 ## Table of Contents
 
 - [📜 Description](#description)  
@@ -36,8 +38,10 @@
 - [📩 Contact](#contact-metapulz-platform)  
 - [📄 Terms and Conditions](#terms-and-conditions)
 
-### 📜 Description
+---
 <a id="description"></a>
+### 📜 Description
+
 Are you an aspiring developer looking to build your resume with cutting-edge skills? Or an entrepreneur ready to launch your cryptocurrency trading platform? **Our Full Stack Trading Platform Source Code** is your gateway to mastering modern tech and revolutionizing the trading world.
 
 #### 🚀 Build Your Resume
@@ -46,9 +50,9 @@ Are you an aspiring developer looking to build your resume with cutting-edge ski
 - Real-World Application: Understand the intricacies of integrating APIs, handling secure transactions, and managing user data.  
 
 ---
-
-### 🌟 Comprehensive Feature Set
 <a id="comprehensive-feature-set"></a>
+### 🌟 Comprehensive Feature Set
+
 #### 🤖 AI Chat Bot  
 - Leverage our AI Chat Bot, designed to handle crypto-related queries like the value of crypto and market data using **Gemini API** and **CoinGecko API** for real-time data.  
 
@@ -59,34 +63,34 @@ Are you an aspiring developer looking to build your resume with cutting-edge ski
 - Equip your users with robust portfolio management tools to monitor investments and track performance.  
 
 ---
-
-### 🔐 Advanced Wallet Functionality
 <a id="advanced-wallet-functionality"></a>
+### 🔐 Advanced Wallet Functionality
+
 - **Wallet to Wallet Transfer** – Securely transfer funds between wallets.  
 - **Withdrawal to Bank Account** – Directly withdraw funds to bank accounts.  
 - **Add Balance to Wallet** – Easily top up wallet balances.  
 
 ---
-
-### 📑 Transaction History
 <a id="transaction-history"></a>
+### 📑 Transaction History
+
 - **Withdrawal History** – View and track past withdrawals.  
 - **Wallet History** – Access detailed logs of all wallet transactions.  
 - **Search Coin** – Effortlessly search for any cryptocurrency, providing users with essential information for informed trading decisions.  
 
 ---
-
-### 🛡️ Robust Authentication and Security
 <a id="robust-authentication-and-security"></a>
+### 🛡️ Robust Authentication and Security
+
 Ensure top-notch security with features like:  
 - **Login & Register** – Simple and secure user authentication.  
 - **Two-Factor Authentication** – Extra layer of security for user accounts.  
 - **Forgot Password** – Easy password recovery process.  
 
 ---
-
-### 🏆 Cutting-Edge Technology Stack
 <a id="cutting-edge-technology-stack"></a>
+### 🏆 Cutting-Edge Technology Stack
+
 Our platform utilizes the latest technologies to ensure high performance, security, and scalability.
 
 **Backend:**  
@@ -112,36 +116,36 @@ Our platform utilizes the latest technologies to ensure high performance, securi
 - CoinGecko API  
 
 ---
-
-### ✅ Why Choose Our Source Code?
 <a id="why-choose-our-source-code"></a>
+### ✅ Why Choose Our Source Code?
+
 - **Comprehensive Solution** – A fully functional trading platform with essential features.  
 - **Easy Customization** – Modular and well-documented code for easy customization.  
 - **Scalable Architecture** – Built to handle a growing user base and high transaction volumes.  
 
 ---
-
-### 🎯 Get Started Today!
 <a id="get-started-today"></a>
+### 🎯 Get Started Today!
+
 Don’t miss the chance to elevate your career or business with our Full Stack Trading Platform Source Code. Perfect for students, aspiring developers, and entrepreneurs, our solution is designed to help you achieve your goals efficiently.
 
 ---
-
-### 📚 Documentation
 <a id="documentation"></a>
+### 📚 Documentation
+
 - [Contributing Guide](./CONTRIBUTING.md)
 - [License](./LICENSE)
 
 ---
-
-### 📩 Contact MetaPulz Platform
 <a id="contact-metapulz-platform"></a>
+### 📩 Contact MetaPulz Platform
+
 **✉️ email@metapulz.com**  
 **📞 +639171281980**  
 
 ---
-
-### 📄 Terms and Conditions
 <a id="terms-and-conditions"></a>
+### 📄 Terms and Conditions
+
 > Please update this section with your legal terms.  
 > You agree to share information entered on this page with MetaPulz Platform (owner of this page) and GitHub, adhering to applicable laws.  
