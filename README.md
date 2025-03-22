@@ -177,5 +177,6 @@ Violation of these terms may result in suspension or termination of access to th
 
 > By using this platform, you acknowledge that you have read and agreed to these terms.
 
+---
 
 Copyright © 2025 metaPulz.com | hybridSeek | All Rights Reserved.
