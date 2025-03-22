@@ -145,7 +145,25 @@ Don’t miss the chance to elevate your career or business with our Full Stack T
 
 ---
 <a id="terms-and-conditions"></a>
-### 📄 Terms and Conditions
+### 📄 Terms and Conditions  
 
-> Please update this section with your legal terms.  
-> You agree to share information entered on this page with MetaPulz Platform (owner of this page) and GitHub, adhering to applicable laws.  
+By accessing or using this platform, you agree to the following terms:  
+
+#### 1. **Use of Platform**  
+You are granted a limited, non-transferable license to use the platform for personal and business purposes. Unauthorized use or duplication of the platform’s content or code is strictly prohibited.  
+
+#### 2. **Data Privacy**  
+We collect and process user data following our Privacy Policy. By using the platform, you consent to this data collection and usage.  
+
+#### 3. **Liability**  
+MetaPulz Platform is not liable for any direct, indirect, or incidental damages resulting from the use of the platform.  
+
+#### 4. **Amendments**  
+We reserve the right to modify these terms at any time. Continued use of the platform signifies acceptance of the updated terms.  
+
+#### 5. **Termination**  
+Violation of these terms may result in suspension or termination of access to the platform.  
+
+> By using this platform, you acknowledge that you have read and agreed to these terms.
+
+Copyright © 2025 metaPulz.com
