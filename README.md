@@ -16,6 +16,9 @@
   <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-23-blue?logo=java" alt="Java"></a>
   <a href="https://reactjs.org/"><img src="https://img.shields.io/npm/v/react?color=61DAFB&logo=react" alt="React"></a>
   <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-8.0.36-blue?logo=mysql" alt="MySQL"></a>
+  <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring%20Boot-2.7.4-green?logo=spring" alt="Spring Boot"></a>
+  <a href="https://spring.io/projects/spring-security"><img src="https://img.shields.io/badge/Spring%20Security-5.7.4-blue?logo=spring" alt="Spring Security"</a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-3.4.1-38B2AC?logo=tailwindcss" alt="Tailwind CSS"></a>
 </p>
 
 <h4 align="center">
