@@ -19,6 +19,14 @@
   <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring%20Boot-2.7.4-green?logo=spring" alt="Spring Boot"></a>
   <a href="https://spring.io/projects/spring-security"><img src="https://img.shields.io/badge/Spring%20Security-5.7.4-blue?logo=spring" alt="Spring Security"</a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-3.4.1-38B2AC?logo=tailwindcss" alt="Tailwind CSS"></a>
+  <a href="https://spring.io/guides/gs/email/"><img src="https://img.shields.io/badge/Java%20Mail%20Sender-1.6.7-blue?logo=spring" alt="Java Mail Sender"></a>
+  <a href="https://redux.js.org/"><img src="https://img.shields.io/npm/v/redux?color=764ABC&logo=redux" alt="Redux"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">
+    <img src="https://img.shields.io/badge/APIs-REST%2FGraphQL-blue?logo=api" alt="APIs">
+  </a>
+  <a href="https://axios-http.com/"><img src="https://img.shields.io/npm/v/axios?color=5A29E4&logo=axios" alt="Axios"></a>
+  <a href="https://stripe.com/"><img src="https://img.shields.io/badge/Payment%20Gateway-Stripe-008CDD?logo=stripe" alt="Stripe"></a>
+  <a href="https://razorpay.com/"><img src="https://img.shields.io/badge/Payment%20Gateway-Razorpay-02042B?logo=razorpay" alt="Razorpay"></a>
 </p>
 
 <h4 align="center">
