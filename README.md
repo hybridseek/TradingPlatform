@@ -34,7 +34,7 @@
 - [Get Started Today](#🎯-get-started-today)  
 - [Documentation](#📚-documentation)  
 - [Contact](#📩-contact-metapulz-platform)  
-- [Terms and Conditions](#%F0%9F%93%9C-terms-and-conditions)
+- [Terms and Conditions](#terms-and-conditions)
 
 ### 📜 Description
 Are you an aspiring developer looking to build your resume with cutting-edge skills? Or an entrepreneur ready to launch your cryptocurrency trading platform? **Our Full Stack Trading Platform Source Code** is your gateway to mastering modern tech and revolutionizing the trading world.
@@ -132,6 +132,6 @@ Don’t miss the chance to elevate your career or business with our Full Stack T
 
 ---
 
-### 📜 Terms and Conditions
+### Terms and Conditions
 > Please update this section with your legal terms.  
 > You agree to share information entered on this page with MetaPulz Platform (owner of this page) and GitHub, adhering to applicable laws.  
